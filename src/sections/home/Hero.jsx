@@ -14,27 +14,19 @@ function Hero() {
           BACKGROUND VIDEO
       ====================================================== */}
 
-      <video
-        className="
-          pointer-events-none
-          absolute
-          inset-0
-          h-full
-          w-full
-          object-cover
-        "
-        autoPlay
-        muted
-        loop
-        playsInline
-        preload="metadata"
-        aria-hidden="true"
-      >
-        <source
-          src="/media/videos/bg.mp4"
-          type="video/mp4"
-        />
-      </video>
+<video
+  autoPlay
+  muted
+  loop
+  playsInline
+  preload="metadata"
+  className="absolute inset-0 h-full w-full object-cover"
+>
+  <source
+    src={`${import.meta.env.BASE_URL}media/videos/bg.mp4`}
+    type="video/mp4"
+  />
+</video>
 
       {/* =====================================================
           VIDEO OVERLAYS
