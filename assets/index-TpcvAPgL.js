@@ -175,14 +175,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
         overflow-hidden\r
         bg-[#050505]\r
         text-[#F5F5F5]\r
-      `,children:[(0,j.jsx)(`video`,{className:`\r
-          pointer-events-none\r
-          absolute\r
-          inset-0\r
-          h-full\r
-          w-full\r
-          object-cover\r
-        `,autoPlay:!0,muted:!0,loop:!0,playsInline:!0,preload:`metadata`,"aria-hidden":`true`,children:(0,j.jsx)(`source`,{src:`/media/videos/bg.mp4`,type:`video/mp4`})}),(0,j.jsx)(`div`,{className:`\r
+      `,children:[(0,j.jsx)(`video`,{autoPlay:!0,muted:!0,loop:!0,playsInline:!0,preload:`metadata`,className:`absolute inset-0 h-full w-full object-cover`,children:(0,j.jsx)(`source`,{src:`/website/media/videos/bg.mp4`,type:`video/mp4`})}),(0,j.jsx)(`div`,{className:`\r
           pointer-events-none\r
           absolute\r
           inset-0\r
