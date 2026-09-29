@@ -269,7 +269,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
           py-20\r
           text-[#090909]\r
           sm:py-28\r
-          lg:py-44\r
+          lg:py-32\r
         `,children:[(0,T.jsx)(`div`,{"aria-hidden":`true`,className:`\r
             pointer-events-none\r
             absolute\r
@@ -340,203 +340,30 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                 leading-[0.88]\r
                 tracking-[-0.065em]\r
                 sm:text-[clamp(3rem,7vw,6.6rem)]\r
-              `,children:[`We are not here to make`,(0,T.jsxs)(`span`,{className:`text-[#E10600]`,children:[` `,`another brand.`]}),(0,T.jsx)(`br`,{className:`hidden sm:block`}),` `,`We are here to make yours impossible to forget.`]})]})})]}),(0,T.jsx)(`section`,{id:`rare-method`,className:`\r
+              `,children:[`We are not here to make`,(0,T.jsxs)(`span`,{className:`text-[#E10600]`,children:[` `,`another brand.`]}),(0,T.jsx)(`br`,{className:`hidden sm:block`}),` `,`We are here to make yours impossible to forget.`]})]})})]}),(0,T.jsxs)(`section`,{id:`rare-method`,className:`\r
           relative\r
           overflow-hidden\r
           bg-[#050505]\r
-          lg:min-h-[190svh]\r
-        `,children:(0,T.jsxs)(`div`,{className:`\r
-            relative\r
-            flex\r
-            min-h-0\r
-            items-center\r
-            overflow-hidden\r
-            lg:sticky\r
-            lg:top-0\r
-            lg:min-h-[100svh]\r
-          `,children:[(0,T.jsx)(`div`,{className:`\r
-              pointer-events-none\r
-              absolute\r
-              inset-0\r
-              opacity-20\r
-              lg:opacity-30\r
-            `,style:{transform:`translate3d(0,var(--grid-y),0)`,backgroundImage:`linear-gradient(rgba(255,255,255,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.055) 1px,transparent 1px)`,backgroundSize:`55px 55px`,maskImage:`linear-gradient(to bottom,transparent,#000 25%,#000 75%,transparent)`},"aria-hidden":`true`}),(0,T.jsx)(`div`,{className:`\r
-              pointer-events-none\r
-              absolute\r
-              left-1/2\r
-              top-1/2\r
-              h-[70vw]\r
-              w-[70vw]\r
-              -translate-x-1/2\r
-              -translate-y-1/2\r
-              rounded-full\r
-              bg-[#E10600]/10\r
-              blur-[90px]\r
-              sm:h-[50vw]\r
-              sm:w-[50vw]\r
-            `,style:{transform:`translate3d(calc(-50% + var(--orb-x)),calc(-50% + var(--orb-y)),0)`},"aria-hidden":`true`}),(0,T.jsxs)(`div`,{className:`\r
-              relative\r
-              z-10\r
-              mx-auto\r
-              w-full\r
-              max-w-[1400px]\r
-              px-5\r
-              py-20\r
-              sm:px-8\r
-              sm:py-28\r
-              lg:px-14\r
-              lg:py-24\r
-            `,children:[(0,T.jsxs)(`div`,{className:`\r
-                mb-10\r
-                flex\r
-                flex-col\r
-                gap-7\r
-                sm:mb-12\r
-                sm:gap-8\r
-                lg:flex-row\r
-                lg:items-end\r
-                lg:justify-between\r
-              `,children:[(0,T.jsxs)(`div`,{children:[(0,T.jsx)(`p`,{className:`\r
-                    text-[9px]\r
-                    font-bold\r
-                    uppercase\r
-                    tracking-[0.3em]\r
-                    text-[#E10600]\r
-                    sm:text-[10px]\r
-                    sm:tracking-[0.35em]\r
-                  `,children:`Our operating system`}),(0,T.jsxs)(`h2`,{className:`\r
-                    mt-4\r
-                    text-[clamp(3rem,14vw,5rem)]\r
-                    font-black\r
-                    uppercase\r
-                    leading-[0.8]\r
-                    tracking-[-0.07em]\r
-                    sm:text-[clamp(3.5rem,8vw,6.8rem)]\r
-                  `,children:[`The Rare`,(0,T.jsx)(`br`,{}),(0,T.jsx)(`span`,{className:`text-white/30`,children:`Method.`})]})]}),(0,T.jsx)(`div`,{className:`\r
-                  max-w-xs\r
-                  text-[13px]\r
-                  leading-6\r
-                  text-white/40\r
-                  sm:text-sm\r
-                `,children:`Strategy first. Story second. Execution all the way through.`})]}),(0,T.jsx)(`div`,{className:`\r
-                grid\r
-                gap-3\r
-                sm:gap-4\r
-                lg:grid-cols-3\r
-                lg:gap-6\r
-              `,children:Rr.map((e,t)=>(0,T.jsxs)(`article`,{className:`\r
-                    group\r
-                    relative\r
-                    min-h-[400px]\r
-                    overflow-hidden\r
-                    rounded-[26px]\r
-                    border\r
-                    border-white/10\r
-                    bg-white/[0.035]\r
-                    p-6\r
-                    backdrop-blur-xl\r
-                    transition\r
-                    duration-500\r
-                    sm:min-h-[440px]\r
-                    sm:rounded-[30px]\r
-                    sm:p-8\r
-                    lg:min-h-[500px]\r
-                    lg:p-9\r
-                  `,style:{transform:`
-                      perspective(1200px)
-                      translate3d(
-                        0,
-                        calc(
-                          var(--act-depth) *
-                          ${t===1?-.5:t===2?.3:.65}
-                        ),
-                        0
-                      )
-                      rotateX(
-                        ${t===1?`1.5deg`:`-1deg`}
-                      )
-                      rotateY(
-                        ${t===0?`2deg`:t===2?`-2deg`:`0deg`}
-                      )
-                    `},children:[(0,T.jsx)(`div`,{className:`\r
-                      absolute\r
-                      -right-16\r
-                      -top-16\r
-                      h-44\r
-                      w-44\r
-                      rounded-full\r
-                      border\r
-                      border-white/10\r
-                      transition\r
-                      duration-700\r
-                      sm:-right-20\r
-                      sm:-top-20\r
-                      sm:h-56\r
-                      sm:w-56\r
-                      lg:group-hover:scale-125\r
-                    `}),(0,T.jsx)(`div`,{className:`\r
-                      absolute\r
-                      bottom-0\r
-                      right-0\r
-                      h-36\r
-                      w-36\r
-                      translate-x-1/3\r
-                      translate-y-1/3\r
-                      rounded-full\r
-                      bg-[#E10600]/10\r
-                      blur-3xl\r
-                    `}),(0,T.jsxs)(`div`,{className:`relative z-10 flex h-full flex-col justify-between`,children:[(0,T.jsxs)(`div`,{className:`flex items-start justify-between gap-4`,children:[(0,T.jsxs)(`span`,{className:`\r
-                          text-[4.8rem]\r
-                          font-black\r
-                          leading-none\r
-                          tracking-[-0.08em]\r
-                          text-white/10\r
-                          sm:text-[6rem]\r
-                          lg:text-[7rem]\r
-                        `,children:[e.number,`.`]}),(0,T.jsxs)(`span`,{className:`\r
-                          rounded-full\r
-                          border\r
-                          border-[#E10600]/40\r
-                          px-2.5\r
-                          py-1\r
-                          text-[8px]\r
-                          font-bold\r
-                          uppercase\r
-                          tracking-[0.2em]\r
-                          text-[#E10600]\r
-                          sm:px-3\r
-                          sm:text-[9px]\r
-                        `,children:[`Act `,t+1]})]}),(0,T.jsxs)(`div`,{children:[(0,T.jsx)(`h3`,{className:`\r
-                          text-[2rem]\r
-                          font-bold\r
-                          tracking-[-0.045em]\r
-                          sm:text-4xl\r
-                        `,children:e.title}),(0,T.jsxs)(`p`,{className:`\r
-                          mt-4\r
-                          max-w-sm\r
-                          text-[13px]\r
-                          font-medium\r
-                          italic\r
-                          leading-6\r
-                          text-white/55\r
-                          sm:mt-5\r
-                          sm:text-sm\r
-                        `,children:[`“`,e.kicker,`”`]}),(0,T.jsx)(`p`,{className:`\r
-                          mt-4\r
-                          max-w-sm\r
-                          text-[13px]\r
-                          leading-6\r
-                          text-white/45\r
-                          sm:mt-5\r
-                          sm:text-sm\r
-                        `,children:e.body})]})]})]},e.number))})]})]})}),(0,T.jsxs)(`section`,{className:`\r
+          text-white\r
+          py-20\r
+          sm:py-28\r
+          lg:py-32\r
+        `,children:[(0,T.jsxs)(`div`,{className:`absolute inset-0 pointer-events-none`,"aria-hidden":`true`,children:[(0,T.jsx)(`div`,{className:`absolute left-[8%] top-[18%] h-72 w-72 rounded-full bg-[#E10600]/10 blur-[110px]`}),(0,T.jsx)(`div`,{className:`absolute bottom-[5%] right-[5%] h-80 w-80 rounded-full bg-white/[0.035] blur-[120px]`}),(0,T.jsx)(`div`,{className:`absolute inset-0 opacity-[0.12]`,style:{backgroundImage:`linear-gradient(rgba(255,255,255,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.055) 1px,transparent 1px)`,backgroundSize:`72px 72px`,maskImage:`linear-gradient(to bottom,transparent,#000 18%,#000 82%,transparent)`}})]}),(0,T.jsx)(`div`,{className:`relative z-10 mx-auto max-w-[1400px] px-5 sm:px-8 lg:px-14`,children:(0,T.jsxs)(`div`,{className:`grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20`,children:[(0,T.jsxs)(`div`,{className:`lg:sticky lg:top-24 lg:self-start`,children:[(0,T.jsx)(`p`,{className:`text-[9px] font-bold uppercase tracking-[0.3em] text-[#E10600] sm:text-[10px] sm:tracking-[0.35em]`,children:`How we work`}),(0,T.jsxs)(`h2`,{className:`mt-4 max-w-xl text-[clamp(3.1rem,10vw,6.8rem)] font-black uppercase leading-[0.8] tracking-[-0.075em]`,children:[`The Rare`,(0,T.jsx)(`br`,{}),(0,T.jsx)(`span`,{className:`text-white/25`,children:`Method.`})]}),(0,T.jsx)(`p`,{className:`mt-7 max-w-sm text-[13px] leading-6 text-white/45 sm:text-sm sm:leading-7`,children:`No bloated process. No decorative strategy decks. We find the signal, shape the story, build the work, and keep pushing until it has a reason to be remembered.`}),(0,T.jsxs)(`div`,{className:`mt-8 hidden items-center gap-3 lg:flex`,children:[(0,T.jsx)(`span`,{className:`h-px w-12 bg-[#E10600]`}),(0,T.jsx)(`span`,{className:`text-[9px] font-bold uppercase tracking-[0.25em] text-white/30`,children:`Strategy × Story × Execution`})]})]}),(0,T.jsxs)(`div`,{className:`relative`,children:[(0,T.jsx)(`div`,{className:`absolute bottom-8 left-[21px] top-8 w-px bg-white/10 sm:left-[27px]`}),(0,T.jsx)(`div`,{className:`space-y-4 sm:space-y-5`,children:Rr.map((e,t)=>(0,T.jsxs)(`article`,{className:`group relative grid grid-cols-[44px_1fr] gap-5 sm:grid-cols-[56px_1fr] sm:gap-7`,children:[(0,T.jsx)(`div`,{className:`relative z-10 flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-[#050505] text-[10px] font-bold tracking-[0.08em] text-white/45 transition duration-500 group-hover:border-[#E10600] group-hover:bg-[#E10600] group-hover:text-white sm:h-14 sm:w-14`,children:e.number}),(0,T.jsxs)(`div`,{className:`relative overflow-hidden border border-white/10 bg-white/[0.025] p-6 transition duration-500 group-hover:border-white/20 group-hover:bg-white/[0.045] sm:p-8 lg:p-9`,children:[(0,T.jsx)(`div`,{className:`absolute right-0 top-0 h-px w-0 bg-[#E10600] transition-all duration-700 group-hover:w-28`}),(0,T.jsxs)(`div`,{className:`flex flex-col gap-5 sm:flex-row sm:items-start sm:justify-between sm:gap-8`,children:[(0,T.jsxs)(`div`,{children:[(0,T.jsxs)(`p`,{className:`text-[9px] font-bold uppercase tracking-[0.25em] text-[#E10600]`,children:[`Act `,t+1]}),(0,T.jsx)(`h3`,{className:`mt-2 text-[clamp(1.8rem,4vw,3rem)] font-black tracking-[-0.05em]`,children:e.title})]}),(0,T.jsx)(`span`,{className:`max-w-[280px] text-[12px] font-medium leading-5 text-white/40 sm:pt-1 sm:text-right`,children:e.kicker})]}),(0,T.jsx)(`p`,{className:`mt-6 max-w-2xl text-[13px] leading-6 text-white/55 sm:text-sm sm:leading-7`,children:e.body}),(0,T.jsxs)(`div`,{className:`mt-7 flex items-center justify-between border-t border-white/10 pt-4`,children:[(0,T.jsx)(`span`,{className:`text-[9px] uppercase tracking-[0.24em] text-white/25`,children:`Rarefiction process`}),(0,T.jsx)(`span`,{className:`text-sm text-white/30 transition duration-300 group-hover:translate-x-1 group-hover:text-[#E10600]`,children:`↗`})]})]})]},e.number))})]})]})})]}),(0,T.jsxs)(`section`,{className:`\r
           relative\r
           overflow-hidden\r
           bg-[#f4f4f2]\r
           py-20\r
           text-[#080b12]\r
           sm:py-28\r
-          lg:py-40\r
+          lg:py-32\r
+        `,children:[(0,T.jsx)(`div`,{"aria-hidden":`true`,className:`pointer-events-none absolute right-[-8%] top-[10%] select-none text-[25vw] font-black leading-none tracking-[-0.12em] text-black/[0.025]`,children:`RARE`}),(0,T.jsx)(`div`,{className:`relative z-10 mx-auto max-w-[1400px] px-5 sm:px-8 lg:px-14`,children:(0,T.jsxs)(`div`,{className:`grid items-center gap-12 lg:grid-cols-[0.75fr_1.25fr] lg:gap-20`,children:[(0,T.jsxs)(`div`,{className:`relative mx-auto w-full max-w-[520px] lg:mx-0`,children:[(0,T.jsx)(`div`,{className:`absolute -left-3 -top-3 h-24 w-24 border-l border-t border-[#E10600]/60 sm:-left-5 sm:-top-5 sm:h-32 sm:w-32`}),(0,T.jsx)(`div`,{className:`absolute -bottom-3 -right-3 h-24 w-24 border-b border-r border-black/15 sm:-bottom-5 sm:-right-5 sm:h-32 sm:w-32`}),(0,T.jsxs)(`div`,{className:`relative overflow-hidden bg-black`,children:[(0,T.jsx)(`img`,{src:`public/media/images/vinay.png`,alt:`Founder of Rarefiction Media`,className:`aspect-[4/5] h-full w-full object-cover`,loading:`lazy`}),(0,T.jsx)(`div`,{className:`absolute inset-0 bg-gradient-to-t from-black/45 via-transparent to-transparent`}),(0,T.jsxs)(`div`,{className:`absolute bottom-5 left-5 sm:bottom-7 sm:left-7`,children:[(0,T.jsx)(`p`,{className:`text-[9px] font-bold uppercase tracking-[0.28em] text-white/60`,children:`Rarefiction Media`}),(0,T.jsx)(`p`,{className:`mt-2 text-xl font-black tracking-[-0.04em] text-white sm:text-2xl`,children:`Pallapati Vinayvardhan Reddy`}),(0,T.jsx)(`p`,{className:`mt-1 text-[10px] font-semibold uppercase tracking-[0.2em] text-white/55`,children:`Founder`})]})]})]}),(0,T.jsxs)(`div`,{className:`max-w-3xl`,children:[(0,T.jsx)(`p`,{className:`text-[9px] font-bold uppercase tracking-[0.3em] text-[#E10600] sm:text-[10px] sm:tracking-[0.35em]`,children:`A note from the founder`}),(0,T.jsxs)(`h2`,{className:`mt-5 text-[clamp(2.8rem,7vw,6.5rem)] font-black uppercase leading-[0.86] tracking-[-0.075em]`,children:[`Build work`,(0,T.jsx)(`br`,{}),(0,T.jsx)(`span`,{className:`text-black/20`,children:`worth remembering.`})]}),(0,T.jsxs)(`div`,{className:`mt-8 max-w-2xl border-l-2 border-[#E10600] pl-5 sm:mt-10 sm:pl-7`,children:[(0,T.jsx)(`p`,{className:`text-[15px] leading-7 text-black/65 sm:text-lg sm:leading-8`,children:`Rarefiction was built around a simple belief: good work should do more than look good. It should give a brand a clearer voice, create a stronger connection, and leave something behind after the scroll.`}),(0,T.jsx)(`p`,{className:`mt-5 text-[15px] leading-7 text-black/65 sm:text-lg sm:leading-8`,children:`That is why we bring strategy, storytelling, production and digital together under one roof. We want to make work with intent — work that feels distinctly yours and earns its place in people's memory.`})]}),(0,T.jsxs)(`div`,{className:`mt-9 flex flex-wrap items-center gap-x-8 gap-y-4 border-t border-black/10 pt-6`,children:[(0,T.jsx)(`span`,{className:`text-[10px] font-bold uppercase tracking-[0.24em] text-black/35`,children:`Pallapati Vinayvardhan Reddy`}),(0,T.jsx)(`span`,{className:`h-px w-10 bg-[#E10600]`}),(0,T.jsx)(`span`,{className:`text-[10px] font-semibold uppercase tracking-[0.2em] text-black/30`,children:`Founder / Rarefiction Media`})]})]})]})})]}),(0,T.jsxs)(`section`,{className:`\r
+          relative\r
+          overflow-hidden\r
+          bg-[#f4f4f2]\r
+          py-20\r
+          text-[#080b12]\r
+          sm:py-28\r
+          lg:py-28\r
         `,children:[(0,T.jsx)(`div`,{"aria-hidden":`true`,className:`\r
             pointer-events-none\r
             absolute\r
@@ -598,28 +425,26 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
               `,children:`Every project starts with a clear reason to exist. We use creativity as a tool for attention, connection, and action.`})]}),(0,T.jsx)(`div`,{className:`\r
               relative\r
               grid\r
-              gap-2\r
-              sm:gap-px\r
+              gap-0\r
+              border-y\r
+              border-black/10\r
               md:grid-cols-3\r
             `,children:[[`01`,`Business Growth`,`Ideas that have a job to do.`],[`02`,`Creative Storytelling`,`Stories built to be remembered.`],[`03`,`Uncommon Execution`,`Craft that survives the scroll.`]].map(([e,t,n])=>(0,T.jsxs)(`div`,{className:`\r
                   group\r
-                  min-h-[245px]\r
-                  rounded-[22px]\r
-                  border\r
+                  relative\r
+                  min-h-[220px]\r
+                  border-b\r
                   border-black/10\r
-                  bg-white/75\r
+                  bg-transparent\r
                   p-6\r
-                  backdrop-blur-sm\r
                   transition\r
                   duration-500\r
-                  hover:bg-white\r
-                  sm:min-h-[290px]\r
-                  sm:rounded-none\r
+                  hover:bg-white/70\r
+                  sm:min-h-[260px]\r
                   sm:p-10\r
-                  md:border-y\r
-                  md:border-l-0\r
+                  md:border-b-0\r
                   md:border-r\r
-                  md:first:border-l\r
+                  md:last:border-r-0\r
                 `,children:[(0,T.jsx)(`span`,{className:`\r
                     text-[10px]\r
                     font-bold\r
@@ -737,7 +562,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
           bg-[#050505]\r
           py-24\r
           sm:py-36\r
-          lg:py-48\r
+          lg:py-36\r
         `,children:[(0,T.jsx)(`div`,{className:`\r
             pointer-events-none\r
             absolute\r
