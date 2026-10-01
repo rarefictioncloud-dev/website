@@ -241,14 +241,14 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
             flex-col\r
             justify-end\r
             px-5\r
-            pb-16\r
+            pb-14\r
             pt-32\r
             sm:px-8\r
-            sm:pb-20\r
+            sm:pb-16\r
             sm:pt-36\r
             lg:px-14\r
-            lg:justify-center\r
-            lg:pb-14\r
+            lg:justify-end\r
+            lg:pb-16\r
             lg:pt-28\r
           `,children:(0,T.jsx)(`div`,{className:`mx-auto w-full max-w-[1400px]`,children:(0,T.jsxs)(`div`,{className:`max-w-5xl`,children:[(0,T.jsxs)(`p`,{className:`\r
                   mb-5\r
@@ -273,13 +273,13 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                     sm:w-2\r
                   `}),`About Rarefiction Media`]}),(0,T.jsxs)(`h1`,{className:`\r
                   max-w-5xl\r
-                  text-[clamp(2.4rem,11vw,4rem)]\r
+                  text-[clamp(2rem,9vw,3.1rem)]\r
                   font-black\r
                   uppercase\r
                   leading-[0.82]\r
                   tracking-[-0.075em]\r
-                  sm:text-[clamp(3rem,7.5vw,5.4rem)]\r
-                  lg:text-[clamp(3.6rem,7vw,6.8rem)]\r
+                  sm:text-[clamp(2.4rem,5.6vw,4rem)]\r
+                  lg:text-[clamp(2.8rem,5vw,4.6rem)]\r
                 `,style:{transform:`translate3d(0,calc(var(--hero-y) * -0.22),0)`},children:[`We build`,(0,T.jsx)(`br`,{}),(0,T.jsx)(`span`,{className:`text-[#E10600]`,children:`stories`}),(0,T.jsx)(`br`,{}),`that move.`]}),(0,T.jsxs)(`div`,{className:`\r
                   mt-7\r
                   grid\r
@@ -836,7 +836,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
         .svc-serif {
           font-family: "Instrument Serif", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
         }
-      `}),(0,T.jsxs)(`section`,{className:`relative flex min-h-[88svh] items-end overflow-hidden`,children:[(0,T.jsxs)(`div`,{className:`absolute inset-0`,children:[(0,T.jsx)(`video`,{ref:t,src:qr,autoPlay:!0,muted:!0,loop:!0,playsInline:!0,preload:`metadata`,onCanPlay:()=>r(!0),"aria-hidden":`true`,className:`
+      `}),(0,T.jsxs)(`section`,{className:`relative flex min-h-[100svh] items-end overflow-hidden`,children:[(0,T.jsxs)(`div`,{className:`absolute inset-0`,children:[(0,T.jsx)(`video`,{ref:t,src:qr,autoPlay:!0,muted:!0,loop:!0,playsInline:!0,preload:`metadata`,onCanPlay:()=>r(!0),"aria-hidden":`true`,className:`
               h-full
               w-full
               object-cover
@@ -870,12 +870,12 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
             w-full\r
             max-w-[1500px]\r
             px-5\r
-            pb-16\r
+            pb-10\r
             pt-32\r
             sm:px-8\r
-            sm:pb-20\r
+            sm:pb-12\r
             lg:px-14\r
-            lg:pb-24\r
+            lg:pb-12\r
           `,children:(0,T.jsxs)(`div`,{className:`max-w-6xl`,children:[(0,T.jsx)(`p`,{className:`\r
                 mb-6\r
                 text-[10px]\r
