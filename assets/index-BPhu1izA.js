@@ -181,12 +181,12 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
               min-h-[100svh]\r
               w-full\r
               object-cover\r
-              opacity-50\r
-              sm:opacity-55\r
+              opacity-60\r
+              sm:opacity-65\r
             `,children:(0,E.jsx)(`source`,{src:o,type:`video/mp4`})},o)}),(0,E.jsx)(`div`,{className:`\r
             absolute\r
             inset-0\r
-            bg-[radial-gradient(circle_at_75%_35%,rgba(225,6,0,0.18),transparent_35%),linear-gradient(180deg,rgba(0,0,0,0.38),#050505_88%)]\r
+            bg-[linear-gradient(180deg,rgba(0,0,0,0.38),#050505_88%)]\r
           `}),(0,E.jsx)(`div`,{className:`\r
             absolute\r
             inset-0\r
@@ -212,7 +212,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
               rounded-full\r
               border\r
               border-white/10\r
-            `,style:{transform:`translate3d(-50%,var(--ring-y),0) rotate(var(--ring-rotate))`,boxShadow:`inset 0 0 100px rgba(255,255,255,.025), 0 0 120px rgba(225,6,0,.07)`}}),(0,E.jsx)(`div`,{className:`\r
+            `,style:{transform:`translate3d(-50%,var(--ring-y),0) rotate(var(--ring-rotate))`,boxShadow:`inset 0 0 100px rgba(255,255,255,.025)`}}),(0,E.jsx)(`div`,{className:`\r
               absolute\r
               left-1/2\r
               top-[35%]\r
@@ -259,7 +259,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                   font-semibold\r
                   uppercase\r
                   tracking-[0.28em]\r
-                  text-white/60\r
+                  text-white/70\r
                   sm:text-xs\r
                   sm:tracking-[0.34em]\r
                 `,children:[(0,E.jsx)(`span`,{className:`\r
@@ -268,25 +268,24 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                     shrink-0\r
                     rounded-full\r
                     bg-[#E10600]\r
-                    shadow-[0_0_18px_rgba(225,6,0,.8)]\r
                     sm:h-2\r
                     sm:w-2\r
-                  `}),`About Rarefiction Media`]}),(0,E.jsxs)(`h1`,{className:`\r
+                  `}),`About Rarefiction Media`,(0,E.jsx)(`span`,{className:`h-px w-10 bg-white/25`})]}),(0,E.jsxs)(`h1`,{className:`\r
                   max-w-5xl\r
                   text-[clamp(2rem,9vw,3.1rem)]\r
                   font-black\r
                   uppercase\r
                   leading-[0.82]\r
                   tracking-[-0.075em]\r
-                  sm:text-[clamp(2.4rem,5.6vw,4rem)]\r
-                  lg:text-[clamp(2.8rem,5vw,4.6rem)]\r
+                  sm:text-[clamp(2.6rem,6vw,4.6rem)]\r
+                  lg:text-[clamp(3rem,5.6vw,5.4rem)]\r
                 `,style:{transform:`translate3d(0,calc(var(--hero-y) * -0.22),0)`},children:[`We build`,(0,E.jsx)(`br`,{}),(0,E.jsx)(`span`,{className:`text-[#E10600]`,children:`stories`}),(0,E.jsx)(`br`,{}),`that move.`]}),(0,E.jsxs)(`div`,{className:`\r
                   mt-7\r
                   grid\r
                   max-w-4xl\r
                   gap-6\r
                   border-t\r
-                  border-white/15\r
+                  border-white/20\r
                   pt-5\r
                   sm:mt-8\r
                   sm:gap-7\r
@@ -297,7 +296,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                     max-w-2xl\r
                     text-[14px]\r
                     leading-6\r
-                    text-white/60\r
+                    text-white/75\r
                     sm:text-base\r
                     sm:leading-7\r
                     lg:text-lg\r
@@ -308,13 +307,15 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                     gap-3\r
                     rounded-full\r
                     border\r
-                    border-white/20\r
-                    px-5\r
-                    py-3\r
+                    border-white/30\r
+                    bg-white/5\r
+                    px-6\r
+                    py-3.5\r
                     text-[10px]\r
                     font-semibold\r
                     uppercase\r
                     tracking-[0.15em]\r
+                    backdrop-blur-md\r
                     transition\r
                     duration-300\r
                     hover:border-white/60\r
@@ -332,12 +333,12 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
             text-[8px]\r
             uppercase\r
             tracking-[0.25em]\r
-            text-white/30\r
+            text-white/50\r
             sm:bottom-8\r
             sm:left-8\r
             sm:text-[9px]\r
             sm:tracking-[0.3em]\r
-          `,children:[(0,E.jsx)(`span`,{className:`h-px w-8 bg-white/25 sm:w-10`}),`Scroll to enter`]})]}),(0,E.jsxs)(`section`,{className:`\r
+          `,children:[(0,E.jsx)(`span`,{className:`h-px w-8 bg-white/35 sm:w-10`}),`Scroll to enter`]})]}),(0,E.jsxs)(`section`,{className:`\r
           relative\r
           overflow-hidden\r
           bg-[#f4f4f2]\r
@@ -843,21 +844,12 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
               transition-opacity
               duration-700
               ${n?`opacity-0`:`opacity-100`}
-            `})]}),(0,E.jsx)(`div`,{className:`absolute inset-0 bg-black/55`}),(0,E.jsx)(`div`,{className:`\r
+            `})]}),(0,E.jsx)(`div`,{className:`absolute inset-0 bg-black/40`}),(0,E.jsx)(`div`,{className:`\r
             absolute inset-0\r
-            bg-[linear-gradient(180deg,rgba(0,0,0,.12)_0%,rgba(0,0,0,.38)_45%,#050505_100%)]\r
+            bg-[linear-gradient(180deg,rgba(0,0,0,.35)_0%,rgba(0,0,0,.15)_40%,#050505_100%)]\r
           `}),(0,E.jsx)(`div`,{className:`\r
-            pointer-events-none\r
-            absolute\r
-            -right-[10%]\r
-            top-[18%]\r
-            h-[45vw]\r
-            w-[45vw]\r
-            max-h-[650px]\r
-            max-w-[650px]\r
-            rounded-full\r
-            bg-[#E10600]/10\r
-            blur-[120px]\r
+            absolute inset-0\r
+            bg-[linear-gradient(90deg,rgba(0,0,0,.5)_0%,transparent_60%)]\r
           `}),(0,E.jsx)(`div`,{className:`\r
             relative z-10\r
             mx-auto\r
@@ -870,37 +862,40 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
             sm:pb-12\r
             lg:px-14\r
             lg:pb-12\r
-          `,children:(0,E.jsxs)(`div`,{className:`max-w-6xl`,children:[(0,E.jsx)(`p`,{className:`\r
+          `,children:(0,E.jsxs)(`div`,{className:`max-w-6xl`,children:[(0,E.jsxs)(`p`,{className:`\r
                 mb-6\r
+                flex\r
+                items-center\r
+                gap-3\r
                 text-[10px]\r
                 font-bold\r
                 uppercase\r
                 tracking-[0.32em]\r
-                text-white/55\r
+                text-white/65\r
                 sm:text-xs\r
-              `,children:`Rarefiction Media / Services`}),(0,E.jsxs)(`h1`,{className:`\r
+              `,children:[(0,E.jsx)(`span`,{className:`h-px w-10 bg-white/40`}),`Rarefiction Media / Services`]}),(0,E.jsxs)(`h1`,{className:`\r
                 max-w-6xl\r
-                text-[clamp(2.25rem,5.2vw,4.75rem)]\r
+                text-[clamp(2.6rem,6.4vw,6rem)]\r
                 font-black\r
                 uppercase\r
-                leading-[0.88]\r
+                leading-[0.86]\r
                 tracking-[-0.06em]\r
               `,children:[`Creative`,(0,E.jsx)(`br`,{}),(0,E.jsx)(`span`,{className:`text-[#E10600]`,children:`services.`})]}),(0,E.jsx)(`p`,{className:`\r
                 mt-7\r
                 max-w-2xl\r
                 text-sm\r
                 leading-6\r
-                text-white/70\r
+                text-white/80\r
                 sm:text-base\r
                 sm:leading-7\r
-              `,children:`Strategy, design, digital, content and production — everything you need to turn an idea into work people remember.`}),(0,E.jsxs)(`div`,{className:`mt-8 flex flex-wrap gap-3`,children:[(0,E.jsxs)(`button`,{type:`button`,onClick:i,className:`\r
+              `,children:`Strategy, design, digital, content and production — everything you need to turn an idea into work people remember.`}),(0,E.jsxs)(`div`,{className:`mt-9 flex flex-wrap gap-3 border-t border-white/20 pt-7`,children:[(0,E.jsxs)(`button`,{type:`button`,onClick:i,className:`\r
                   inline-flex\r
                   items-center\r
                   gap-3\r
                   rounded-full\r
                   bg-white\r
-                  px-6\r
-                  py-3.5\r
+                  px-7\r
+                  py-4\r
                   text-xs\r
                   font-bold\r
                   uppercase\r
@@ -917,10 +912,10 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                   gap-3\r
                   rounded-full\r
                   border\r
-                  border-white/20\r
+                  border-white/25\r
                   bg-white/5\r
-                  px-6\r
-                  py-3.5\r
+                  px-7\r
+                  py-4\r
                   text-xs\r
                   font-bold\r
                   uppercase\r
@@ -929,7 +924,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                   backdrop-blur-md\r
                   transition-all\r
                   duration-300\r
-                  hover:border-white/50\r
+                  hover:border-white/60\r
                   hover:bg-white/10\r
                   active:scale-95\r
                 `,children:[`View brochure`,(0,E.jsx)(Jr,{})]})]})]})}),(0,E.jsxs)(`div`,{className:`\r
@@ -944,10 +939,10 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
             font-bold\r
             uppercase\r
             tracking-[0.2em]\r
-            text-white/40\r
+            text-white/50\r
             sm:flex\r
             lg:right-14\r
-          `,children:[(0,E.jsx)(`span`,{children:`Scroll to explore`}),(0,E.jsx)(`span`,{className:`h-px w-12 bg-white/20`})]})]}),(0,E.jsx)(`section`,{className:`\r
+          `,children:[(0,E.jsx)(`span`,{children:`Scroll to explore`}),(0,E.jsx)(`span`,{className:`h-px w-12 bg-white/30`})]})]}),(0,E.jsx)(`section`,{className:`\r
           relative\r
           bg-[#050505]\r
           px-5\r
